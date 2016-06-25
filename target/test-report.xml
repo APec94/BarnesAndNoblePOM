@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0">
+<testcase classname="Barnes and Noble Login, navigation and purchase functionality." name="1. As a valid user, user can log in to B&amp;N, navigate to a link, and search for a product" time="0">
+<skipped><![CDATA[Given user is able to browse to the Barnes and Noble Website................undefined
+When user lands on home page "Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble".undefined
+Then user can click on the sign in button...................................undefined
+And enter "axelajp@gmail.com" as email address..............................undefined
+And enter "Watermelons1" as password........................................undefined
+And click on login button...................................................undefined
+When user is logged into the "Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble".undefined
+Then user can hover over Hobbiee and Collectbables..........................undefined
+And user can click on Marvel Comics link....................................undefined
+When user lands on new page "Marvel Comics, Special Collections, Hobbies & Collectibles | Barnes & Noble".undefined
+Then user can click on POP Marvel Deadpool Bobblehead.......................undefined
+When user lands on Deadpool page "POP Marvel (BOBBLE): Deadpool | 830395030524 | Item | Barnes & Noble".undefined
+Then user can click Add to Bag button.......................................undefined
+And user can click on View Bag button.......................................undefined
+When user lands on Shopping Bag Page, containing text "Order Summary".......undefined
+Then user can remove Deadpool from Bag......................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Barnes and Noble Login, navigation and purchase functionality." name="2. As a valid user, user can log in, search for a specific product via searchbar, add to bag, and checkout" time="0">
+<skipped><![CDATA[Given user is able to browse to the Barnes and Noble Website................undefined
+When user lands on home page "Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble".undefined
+Then user can click on the sign in button...................................undefined
+And enter "axelajp@gmail.com" as email address..............................undefined
+And enter "Watermelons1" as password........................................undefined
+And click on login button...................................................undefined
+When user is logged into the "Online Bookstore: Books, NOOK ebooks, Music, Movies & Toys | Barnes & Noble".undefined
+Then user can click on search bar and search for The Zombie Survival Guide..undefined
+And user clicks on Zombie Survival Guide link...............................undefined
+When user lands on "The Zombie Survival Guide: Complete Protection from the Living Dead" page.undefined
+Then user clicks NOOKBOOK option............................................undefined
+And user clicks Add to Bag button...........................................undefined
+And user clicks view bag button.............................................undefined
+When user lands on Shopping Bag Page, containing text "Order Summary".......undefined
+Then click continue button..................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

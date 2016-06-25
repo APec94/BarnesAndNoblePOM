@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 24,
+        "name": "1. As a valid user, user can log in to B\u0026N, navigate to a link, and search for a product",
+        "description": "",
+        "id": "barnes-and-noble-login,-navigation-and-purchase-functionality.;1.-as-a-valid-user,-user-can-log-in-to-b\u0026n,-navigate-to-a-link,-and-search-for-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is able to browse to the Barnes and Noble Website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user lands on home page \"Online Bookstore: Books, NOOK ebooks, Music, Movies \u0026 Toys | Barnes \u0026 Noble\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user can click on the sign in button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "enter \"axelajp@gmail.com\" as email address",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "enter \"Watermelons1\" as password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "click on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user is logged into the \"Online Bookstore: Books, NOOK ebooks, Music, Movies \u0026 Toys | Barnes \u0026 Noble\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user can hover over Hobbiee and Collectbables",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user can click on Marvel Comics link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user lands on new page \"Marvel Comics, Special Collections, Hobbies \u0026 Collectibles | Barnes \u0026 Noble\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user can click on POP Marvel Deadpool Bobblehead",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user lands on Deadpool page \"POP Marvel (BOBBLE): Deadpool | 830395030524 | Item | Barnes \u0026 Noble\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user can click Add to Bag button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user can click on View Bag button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user lands on Shopping Bag Page, containing text \"Order Summary\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user can remove Deadpool from Bag",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@scenario1"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "2. As a valid user, user can log in, search for a specific product via searchbar, add to bag, and checkout",
+        "description": "",
+        "id": "barnes-and-noble-login,-navigation-and-purchase-functionality.;2.-as-a-valid-user,-user-can-log-in,-search-for-a-specific-product-via-searchbar,-add-to-bag,-and-checkout;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "user is able to browse to the Barnes and Noble Website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user lands on home page \"Online Bookstore: Books, NOOK ebooks, Music, Movies \u0026 Toys | Barnes \u0026 Noble\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "user can click on the sign in button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "enter \"axelajp@gmail.com\" as email address",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "enter \"Watermelons1\" as password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "click on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "user is logged into the \"Online Bookstore: Books, NOOK ebooks, Music, Movies \u0026 Toys | Barnes \u0026 Noble\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "user can click on search bar and search for The Zombie Survival Guide",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "user clicks on Zombie Survival Guide link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "user lands on \"The Zombie Survival Guide: Complete Protection from the Living Dead\" page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "user clicks NOOKBOOK option",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "user clicks Add to Bag button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "user clicks view bag button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user lands on Shopping Bag Page, containing text \"Order Summary\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "click continue button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Barnes and Noble Login, navigation and purchase functionality.",
+    "description": "",
+    "id": "barnes-and-noble-login,-navigation-and-purchase-functionality.",
+    "keyword": "Feature",
+    "uri": "BarnesAndNoble.feature"
+  }
+]
